@@ -1,6 +1,6 @@
-# no code
-## no critic: TestingAndDebugging::RequireUseStrict
 package Acme::CPANModules::Parse::HumanDate;
+
+use strict;
 
 # AUTHORITY
 # DATE
@@ -8,7 +8,7 @@ package Acme::CPANModules::Parse::HumanDate;
 # VERSION
 
 our $LIST = {
-    summary => "Modules that parse human date/time expression",
+    summary => "List of modules that parse human date/time expression",
     entries => [
         {
             module=>'DateTime::Format::Natural',
